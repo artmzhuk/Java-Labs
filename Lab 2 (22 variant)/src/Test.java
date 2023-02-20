@@ -3,7 +3,7 @@ public class Test {
         Group iu9 = new Group(4);
         iu9.addStudent("Artem", 5);
         iu9.addStudent("Vlad", 10);
-        iu9.addStudent("Shodi", 3);
+        iu9.addStudent("Shodi", 30);
         iu9.addStudent("Matvey", 4);
         System.out.println(iu9.getMark("Artem"));
         iu9.addStudent("Katya", 11);
