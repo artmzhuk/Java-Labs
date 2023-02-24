@@ -79,7 +79,14 @@ public class Group {
             this.sortByPoints();
             this.setMarks();
         }
+    }
 
+    public String toString(){
+        StringBuilder result = new StringBuilder();
+        for(int i = 0; i < this.numOfStudents; i++){
+            result.append(this.students[i].name).append("\t\t").append(this.students[i].mark).append("\n");
+        }
+        return result.toString();
     }
 }
 

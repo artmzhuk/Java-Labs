@@ -9,8 +9,9 @@ public class Test {
         iu9.addStudent("Katya", 11);
         iu9.addStudent("Sveta", 12);
         iu9.addStudent("Gulnara", 13);
+        iu9.addStudent("Dima", 40);
         System.out.println(iu9.getMark(0));
         System.out.println(iu9.getMark("Gulnara"));
-
+        System.out.println(iu9);
     }
 }
