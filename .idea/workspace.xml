@@ -8,7 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f9b7e2a-c9f1-4ca6-a4e1-667bf21d1e86" name="Changes" comment="added labs 4, 5" />
+    <list default="true" id="7f9b7e2a-c9f1-4ca6-a4e1-667bf21d1e86" name="Changes" comment="added labs 4, 5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/src/Triangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/src/Triangles.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +89,7 @@
       </method>
     </configuration>
     <configuration name="Lab5" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Lab5" />
@@ -176,10 +180,14 @@
           <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Lab5/src/Triangles.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="12" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab5/src/Triangle.java</url>
+          <line>18</line>
+          <properties class="Triangle" method="isSquared">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
