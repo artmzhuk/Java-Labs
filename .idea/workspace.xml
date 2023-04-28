@@ -8,8 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f9b7e2a-c9f1-4ca6-a4e1-667bf21d1e86" name="Changes" comment="added iml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7f9b7e2a-c9f1-4ca6-a4e1-667bf21d1e86" name="Changes" comment="added ldb6 report">
+      <change afterPath="$PROJECT_DIR$/Lab11/Lab11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11/src/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,33 +41,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;304&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.08756566&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.09606147&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "304",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "19",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.08756566",
+    "project.structure.side.proportion": "0.09606147",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Lab6">
+}]]></component>
+  <component name="RunManager" selected="Application.Lab11">
     <configuration name="Lab 2 22" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Lab 2 (22 variant)" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab11" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab11" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +125,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Lab11" />
       <item itemvalue="Application.Lab3" />
       <item itemvalue="Application.Lab6" />
       <item itemvalue="Application.Lab 2 22" />
@@ -143,6 +157,8 @@
       <workItem from="1679303361942" duration="14656000" />
       <workItem from="1679325143571" duration="217000" />
       <workItem from="1680512978047" duration="9739000" />
+      <workItem from="1681753514566" duration="145000" />
+      <workItem from="1682696727337" duration="8253000" />
     </task>
     <task id="LOCAL-00001" summary="added labs 2a and 3">
       <created>1678105312505</created>
@@ -165,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679325211008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added ldb6 report">
+      <created>1681753655458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681753655458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +209,8 @@
     <MESSAGE value="added labs 2a and 3" />
     <MESSAGE value="added reports for labs 2a and 3" />
     <MESSAGE value="added labs 4, 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added labs 4, 5" />
+    <MESSAGE value="added ldb6 report" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ldb6 report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,6 +240,11 @@
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="StringToParse.charAt(currentCharIndex)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
