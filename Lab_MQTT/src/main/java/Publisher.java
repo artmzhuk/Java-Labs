@@ -1,16 +1,24 @@
 import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.json.JSONObject;
+
+import java.util.Scanner;
 
 public class Publisher {
+    public static String getJson(){
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n = reader.nextInt();
+        reader.close();
+
+        JSONObject jo = new JSONObject();
+        jo.put("age", n);
+        return jo.toString();
+    }
+
     public static void main(String[] args) throws MqttException {
-
-        String messageString = "Hello World from Java!";
-
-        if (args.length == 2) {
-            messageString = args[1];
-        }
-
+        String messageString;
 
         System.out.println("== START PUBLISHER ==");
 
@@ -18,6 +26,11 @@ public class Publisher {
         MqttClient client = new MqttClient("tcp://test.mosquitto.org:1883", MqttClient.generateClientId());
         client.connect();
         MqttMessage message = new MqttMessage();
+        if (args.length == 2) {
+            messageString = args[1];
+        } else {
+            messageString = getJson();
+        }
         message.setPayload(messageString.getBytes());
         client.publish("IU69", message);
 

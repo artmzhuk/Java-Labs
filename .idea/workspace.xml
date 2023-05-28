@@ -8,15 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f9b7e2a-c9f1-4ca6-a4e1-667bf21d1e86" name="Changes" comment="added lab11">
-      <change afterPath="$PROJECT_DIR$/Lab11/Lab11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_MQTT/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_MQTT/src/main/java/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_MQTT/src/main/java/SimpleMqttCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_MQTT/src/main/java/Subscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7f9b7e2a-c9f1-4ca6-a4e1-667bf21d1e86" name="Changes" comment="added mqtt base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab11/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_MQTT/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_MQTT/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_MQTT/src/main/java/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_MQTT/src/main/java/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_MQTT/src/main/java/SimpleMqttCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_MQTT/src/main/java/SimpleMqttCallBack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lab_Publisher">
+  <component name="RunManager">
     <configuration name="Lab 2 22" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Lab 2 (22 variant)" />
@@ -190,7 +186,7 @@
       <workItem from="1682709049435" duration="1503000" />
       <workItem from="1682711993266" duration="3082000" />
       <workItem from="1682770762757" duration="667000" />
-      <workItem from="1685307165520" duration="3184000" />
+      <workItem from="1685307165520" duration="5461000" />
     </task>
     <task id="LOCAL-00001" summary="added labs 2a and 3">
       <created>1678105312505</created>
@@ -227,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682705514387</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added mqtt base">
+      <created>1685314330266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685314330266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +253,8 @@
     <MESSAGE value="added labs 4, 5" />
     <MESSAGE value="added ldb6 report" />
     <MESSAGE value="added lab11" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lab11" />
+    <MESSAGE value="added mqtt base" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mqtt base" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
