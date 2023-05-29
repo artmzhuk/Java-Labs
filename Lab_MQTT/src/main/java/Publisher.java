@@ -8,12 +8,18 @@ import java.util.Scanner;
 public class Publisher {
     public static String getJson(){
         Scanner reader = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int n = reader.nextInt();
+        System.out.println("Enter a: ");
+        int a = reader.nextInt();
+        System.out.println("Enter b: ");
+        int b = reader.nextInt();
+        System.out.println("Enter c: ");
+        int c = reader.nextInt();
         reader.close();
 
         JSONObject jo = new JSONObject();
-        jo.put("age", n);
+        jo.put("a", a);
+        jo.put("b", b);
+        jo.put("c", c);
         return jo.toString();
     }
 

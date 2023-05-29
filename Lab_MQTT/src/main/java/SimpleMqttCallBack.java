@@ -13,7 +13,19 @@ public class SimpleMqttCallBack implements MqttCallback {
         String message = new String(mqttMessage.getPayload());
         System.out.println("Message received:\t"+ message);
         JSONObject jo = new JSONObject(message);
-        System.out.println(jo.opt("age"));
+        int a = Integer.parseInt(jo.opt("a").toString());
+        int b = Integer.parseInt(jo.opt("b").toString());
+        int c = Integer.parseInt(jo.opt("c").toString());
+        if ((b*b - 4*a*c) < 0){
+            System.out.println("No solutions for: "+ a +" "+" "+c);
+        } else if ((b*b - 4*a*c) == 0){
+            double sol1 = ((b)/(2*a));
+            System.out.println("Solution is: " + sol1);
+        } else {
+            double sol1 = ((b+ Math.sqrt((double) b*b - 4*a*c))/(2*a));
+            double sol2 = ((b- Math.sqrt((double) b*b - 4*a*c))/(2*a));
+        }
+
     }
 
     public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken) {
